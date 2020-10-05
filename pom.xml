@@ -109,6 +109,20 @@
             </plugin>
     </plugins>
   </build>
+         
+     <plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.0.0</version>
+</plugin>
+
+<plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>2.6</version>
+  <configuration>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+  </configuration>
+</plugin>
+
        
       <reporting>
     <plugins>
@@ -135,15 +149,3 @@
  </distributionManagement>
          
 </project>
-<plugin>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.0.0</version>
-</plugin>
-
-<plugin>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>2.6</version>
-  <configuration>
-    <failOnMissingWebXml>false</failOnMissingWebXml>
-  </configuration>
-</plugin>
