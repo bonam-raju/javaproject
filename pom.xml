@@ -55,7 +55,7 @@
       <plugin>
         <!-- Configures the compiler. -->
         <groupId>maven-war-plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
+        <artifactId>maven-war-plugin</artifactId>
         <version>3.1</version>
         <configuration>
           <source>1.6</source>
